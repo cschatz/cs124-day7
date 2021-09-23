@@ -57,7 +57,19 @@ public class Day7 {
 		return reverse(s.substring(1)) + s.charAt(0);
 	}
 	
+	private static int sumItemsHelper(int[] items, int start) {
+		// base case: no items in the range
+		if (start == items.length)
+			return 0;
+		// recurse leeeeeeeap!
+		// calculate: (first item) + sum(all other items)
+		return items[start] + sumItemsHelper(items, start + 1);
+	}
 	
+	
+	public static int sumItems(int[] items) {
+		return sumItemsHelper(items, 0);
+	}
 	
 	
 	
@@ -79,6 +91,8 @@ public class Day7 {
 		
 		System.out.println("A" + ": " + reverse("A"));
 		
+		int[] nums = {2, 4, 1, 7, 6};
+		System.out.println(sumItems(nums));
 		
 	}
 		   
