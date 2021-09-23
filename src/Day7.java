@@ -50,16 +50,13 @@ public class Day7 {
 	
 	
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-
-		countdown(10);
-		
-		System.out.println(power17(3));
-		
-		System.out.println(isTriple(100));
-		System.out.println(isTriple(81));
-		
-		System.out.println(countEs("telephone wire"));			
+		FractalTree tree = new FractalTree(600, 600);
+		while (true) {
+			tree.adjustSettings();
+			System.out.println("Drawing...");
+			tree.draw();
+			System.out.println("Done.\n");
+		}
 	}
 		   
 }
