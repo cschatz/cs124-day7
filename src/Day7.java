@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import edu.stanford.cs.graphics.GPoint;
+
 public class Day7 {
 
 	public static void countdown(int n) {
@@ -58,6 +60,7 @@ public class Day7 {
 		System.out.println(isTriple(81));
 		
 		System.out.println(countEs("telephone wire"));
+			
 	}
 		   
 }
