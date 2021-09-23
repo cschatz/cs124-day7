@@ -1,5 +1,7 @@
-public class Day4 {
-	
+import java.util.Scanner;
+
+public class Day7 {
+
 	public static void countdown(int n) {
 		// base case
 		if (n == 0) {
@@ -46,6 +48,8 @@ public class Day4 {
 	
 	
 	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
 		countdown(10);
 		
 		System.out.println(power17(3));
@@ -55,4 +59,5 @@ public class Day4 {
 		
 		System.out.println(countEs("telephone wire"));
 	}
+		   
 }
