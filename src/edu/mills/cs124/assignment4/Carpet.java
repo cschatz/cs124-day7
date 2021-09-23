@@ -11,12 +11,14 @@ public class Carpet extends GWindow {
 		this.height = height;
 	}
 	
-	void drawHelper(double cornerX, double cornerY, double side, int depth) {
+	private void drawHelper(double cornerX, double cornerY, double side, int depth) {
 		
 	}
 	
-	void draw(int depth) {
-		
+	public void draw(int depth) {
+		// This method is ALREADY COMPLETE.
+		// Your code goes in the helper method above.
+		drawHelper(0, 0, width, depth);
 	}
 	
 }

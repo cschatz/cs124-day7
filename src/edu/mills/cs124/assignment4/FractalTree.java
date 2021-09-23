@@ -30,10 +30,11 @@ public class FractalTree extends GWindow {
 	
 	public void drawHelper(double startX, double startY, double length, double angle, int depth) {
 		
-		
 	}
 	
 	public void draw() {
+		// This method is ALREADY COMPLETE.
+		// Your code goes in the helper method above.
 		clear();
 		// start the tree at the bottom center of the screen
 		drawHelper(width/2, height, trunkSize, 90, depth);
