@@ -28,14 +28,15 @@ public class FractalTree extends GWindow {
 		scanner = new Scanner(System.in);
 	}
 	
-	public void helper(double startX, double startY, double length, double angle, int depth) {
+	public void drawHelper(double startX, double startY, double length, double angle, int depth) {
 		
 		
 	}
 	
 	public void draw() {
 		clear();
-		helper(width/2, height, trunkSize, 90, depth);
+		// start the tree at the bottom center of the screen
+		drawHelper(width/2, height, trunkSize, 90, depth);
 	}
 	
 	

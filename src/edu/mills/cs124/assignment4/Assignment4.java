@@ -21,6 +21,19 @@ public class Assignment4 {
 		return -999;
 	}
 	
+	public static boolean sumExists(int[] numbers, int sum) {
+	
+		// FAKE return value! You should delete this when you start writing this method.
+		return false;
+	}
+	
+	public static boolean sumExistsHelper(int[] numbers, int sum, int i, int k) {
+		
+		// FAKE return value! You should delete this when you start writing this method.
+		return false;
+	}
+	
+	
 	public static void main(String[] args) {
 		
 
