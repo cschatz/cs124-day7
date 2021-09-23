@@ -28,17 +28,7 @@ public class FractalTree extends GWindow {
 	}
 	
 	public void helper(double startX, double startY, double length, double angle, int depth) {
-		double endX = startX + length*Math.cos(Math.PI*angle/180);
-		double endY = startY - length*Math.sin(Math.PI*angle/180);
-		GLine line = new GLine(startX, startY, endX, endY);
-		line.setLineWidth(length*thicknessFactor);
-		add(line);
-		if (depth == 0)
-			return;
-		helper(endX, endY, length*randomValue(lengthFactorMin, lengthFactorMax),
-				angle+randomValue(angleMin, angleMax), depth-1);
-		helper(endX, endY, length*randomValue(lengthFactorMin, lengthFactorMax),
-				angle-randomValue(angleMin, angleMax), depth-1);
+		
 		
 	}
 	
@@ -81,10 +71,6 @@ public class FractalTree extends GWindow {
 				System.out.print("   *** Not a number, try again: ");
 			}
 		}
-	}
-
-	private static double randomValue(double min, double max) {
-		return Math.random()*(max-min) + min;
 	}
 	
 }
