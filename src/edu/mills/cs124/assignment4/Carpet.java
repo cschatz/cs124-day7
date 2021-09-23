@@ -1,3 +1,4 @@
+package edu.mills.cs124.assignment4;
 import edu.stanford.cs.graphics.*;
 
 public class Carpet extends GWindow {

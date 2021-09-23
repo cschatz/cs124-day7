@@ -1,3 +1,4 @@
+package edu.mills.cs124.assignment4;
 import java.util.Scanner;
 
 import edu.stanford.cs.graphics.GLine;
