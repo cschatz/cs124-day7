@@ -59,8 +59,7 @@ public class Day7 {
 		System.out.println(isTriple(100));
 		System.out.println(isTriple(81));
 		
-		System.out.println(countEs("telephone wire"));
-			
+		System.out.println(countEs("telephone wire"));			
 	}
 		   
 }
