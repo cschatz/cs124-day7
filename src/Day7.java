@@ -47,19 +47,39 @@ public class Day7 {
 			return 0 + countEs(s.substring(1));
 	}
 	
+	public static String reverse(String s) {
+		// base case
+		if (s.length() <= 1) {
+			return s;
+		}
+		
+		// recursive leaaaaap!
+		return reverse(s.substring(1)) + s.charAt(0);
+	}
+	
+	
+	
 	
 	
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-
-		countdown(10);
+//		Scanner scanner = new Scanner(System.in);
+//
+//		countdown(10);
+//		
+//		System.out.println(power17(3));
+//		
+//		System.out.println(isTriple(100));
+//		System.out.println(isTriple(81));
+//		
+//		System.out.println(countEs("telephone wire"));	
 		
-		System.out.println(power17(3));
+		System.out.println("TACO" + ": " + reverse("TACO"));
+		System.out.println("ELEPHANT" + ": " + reverse("ELEPHANT"));
+		System.out.println("RACECAR" + ": " + reverse("RACECAR"));
 		
-		System.out.println(isTriple(100));
-		System.out.println(isTriple(81));
+		System.out.println("A" + ": " + reverse("A"));
 		
-		System.out.println(countEs("telephone wire"));			
+		
 	}
 		   
 }
