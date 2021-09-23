@@ -85,14 +85,17 @@ public class Day7 {
 //		
 //		System.out.println(countEs("telephone wire"));	
 		
-		System.out.println("TACO" + ": " + reverse("TACO"));
-		System.out.println("ELEPHANT" + ": " + reverse("ELEPHANT"));
-		System.out.println("RACECAR" + ": " + reverse("RACECAR"));
+//		System.out.println("TACO" + ": " + reverse("TACO"));
+//		System.out.println("ELEPHANT" + ": " + reverse("ELEPHANT"));
+//		System.out.println("RACECAR" + ": " + reverse("RACECAR"));
+//		
+//		System.out.println("A" + ": " + reverse("A"));
+//		
+//		int[] nums = {2, 4, 1, 7, 6};
+//		System.out.println(sumItems(nums));
 		
-		System.out.println("A" + ": " + reverse("A"));
 		
-		int[] nums = {2, 4, 1, 7, 6};
-		System.out.println(sumItems(nums));
+		MyGraphicsWindow window = new MyGraphicsWindow(600, 600);
 		
 	}
 		   

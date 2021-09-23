@@ -6,8 +6,10 @@ public class MyGraphicsWindow extends GWindow {
 	
 	// constructor
 	MyGraphicsWindow(int width, int height) {
-		
+		super(width, height);
 		this.width = width;
 		this.height = height;
 	}
+	
+	
 }
