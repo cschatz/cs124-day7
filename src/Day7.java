@@ -97,6 +97,7 @@ public class Day7 {
 		
 		MyGraphicsWindow window = new MyGraphicsWindow(600, 600);
 		
+		window.drawCheckers(5);
 	}
 		   
 }
